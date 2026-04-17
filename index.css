@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+.form1{
+    width: 400px;
+    height: 450px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 420px;
+    margin-top: 100px;
+    border-style: inset;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+}
+.inputs{
+    margin-top: 30px;
+}
+h1{
+   color: white;
+    font-weight: bold;
+    margin-left: 150px;
+    font-size: 40px;
+}
+label{
+    font-weight: bold;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+}
+input{
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+     margin-top: 10px;
+}
+input:hover{
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+      border-radius: 5px;
+     margin-top: 50px;
+    padding-left: 80px;
+    justify-content: space-between;
+    border: none;
+}
+.button1{
+    background-color: blue;
+    border: none;
+     width: 70px;
+    height: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+     color: white;
+}
+.button1:hover{
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+.button2{
+    background-color: red;
+    border: none;
+     width: 70px;
+    height: 25px;
+    margin-right: 120px;
+    border-radius: 5px;
+    color: white;
+}
+.button2:hover{
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+a{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+.form2{
+     width: 700px;
+    height: 450px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-style: inset;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+}
+option{
+    color: black;
+}
+.inputs1{
+    border: none;
+    border-radius: 5px;
+     color: white;
+     display: flex;
+     flex-direction: row;
+}
+.div1 input{
+width: 120px;
+height: 20px;
+margin-left:10px ;
+gap: 10px;
+}
+.div1 label{
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: white;
+}
+.div1 select{
+    width: 170px;
+height: 23px;
+border-radius: 5px;
+margin-top: 8px;
+}
+.div1 select:hover{
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+.div2{
+    display: flex;
+    flex-direction: row;   
+    gap: 60px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 120px;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.div3 > label{
+    font-size: 18px;
+    padding-left: 0;
+}
+.div3 div{
+    display: flex;
+    align-items: center;   
+    gap: 6px;
+    margin-left: 5px;
+}
+.div3 input[type="radio"],
+.div3 input[type="checkbox"]{
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0 !important;
+    padding: 0;
+    display: inline-block;  
+}
+.div3 textarea{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.buttonss{
+    margin-top: 210px;
+    margin-left: -530px;
+    gap: 30px;
+}
+.form1.active{
+     width: 400px;
+    height: 450px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-style: inset;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+}
+.form22{
+    display: none;
+}
