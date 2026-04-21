@@ -18,9 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $_SESSION['username'] = $user['username'];
 
-        // ONLY SUCCESS MESSAGE (NO REDIRECT)
-        echo "<h2>Login Successful ✔</h2>";
-        echo "Welcome " . $user['fullname'];
+header("Location: dashboard.php");
+exit();
 
     } else {
 

@@ -8,9 +8,16 @@ $row = $result->fetch_assoc();
 ?>
 
 <form method="POST">
-    <input type="text" name="fullname" value="<?= $row['fullname'] ?>">
-    <input type="text" name="username" value="<?= $row['username'] ?>">
-    <input type="text" name="department" value="<?= $row['department'] ?>">
+
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" value="<?= $row['fullname'] ?>"><br><br>
+
+    <label>Username:</label><br>
+    <input type="text" name="username" value="<?= $row['username'] ?>"><br><br>
+
+    <label>Department:</label><br>
+    <input type="text" name="department" value="<?= $row['department'] ?>"><br><br>
+
     <button type="submit">Update</button>
 </form>
 
